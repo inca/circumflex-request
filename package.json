@@ -1,6 +1,6 @@
 {
   "name": "circumflex-request",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Middleware for parsing and extending Express requests",
   "dependencies": {
     "express": "4.x.x",
