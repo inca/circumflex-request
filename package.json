@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Middleware for parsing and extending Express requests",
   "dependencies": {
-    "express": "*",
+    "express": "4.x.x",
     "multiparty": "*",
     "body-parser": "*",
     "stringex": "*",
