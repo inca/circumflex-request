@@ -1,6 +1,6 @@
 {
-  "name": "circumflex-request",
-  "version": "0.0.4",
+  "name": "expressr",
+  "version": "0.0.1",
   "description": "Middleware for parsing and extending Express requests",
   "dependencies": {
     "express": "4.x.x",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/inca/circumflex-request"
+    "url": "https://github.com/inca/expressr"
   },
   "keywords": [
     "web",
@@ -31,7 +31,7 @@
   "author": "Boris Okunskiy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/inca/circumflex-request/issues"
+    "url": "https://github.com/inca/expressr/issues"
   },
-  "homepage": "https://github.com/inca/circumflex-request"
+  "homepage": "https://github.com/inca/expressr"
 }
