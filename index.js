@@ -14,8 +14,10 @@ module.exports = exports = function() {
     var multipart = Multipart();
     var urlencoded = BodyParser.urlencoded({ extended: false });
     var json = BodyParser.json();
-    multipart(req, res, function() {
-      urlencoded(req, res, function() {
+    multipart(req, res, function(err) {
+      if (err) return next(err);
+      urlencoded(req, res, function(err) {
+        if (err) return next(err);
         json(req, res, next);
       });
     });
